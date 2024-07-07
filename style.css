@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .tag{
+        @apply bg-white text-black text-xs md:text-sm px-1.5 py-1 border-[1px] border-[#F44335] rounded-full  dark:bg-black dark:text-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black
+    }
+
+    .c-btn{
+        @apply border rounded-full px-3 hover:bg-green-400 hover:text-black border-black transition-all duration-300 cursor-pointer dark:bg-white dark:text-black dark:hover:bg-green-400
+    }
+}
